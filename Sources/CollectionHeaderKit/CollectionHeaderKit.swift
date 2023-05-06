@@ -34,7 +34,7 @@ public class SectionHeader: UIStackView {
     }()
     
     public lazy var button: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
